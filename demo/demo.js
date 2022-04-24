@@ -42,6 +42,7 @@ var Memory = /** @class */ (function () {
   };
   return Memory;
 })();
+// "@Injector" is a TypeScript Decorator: https://www.typescriptlang.org/docs/handbook/decorators.html
 var Laptop = /** @class */ (function () {
   function Laptop(model) {
     this.model = model;

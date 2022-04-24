@@ -25,6 +25,7 @@ class Memory {
   }
 }
 
+// "@Injector" is a TypeScript Decorator: https://www.typescriptlang.org/docs/handbook/decorators.html
 @Injector([Storage, new Memory()])
 class Laptop {
   Storage: any;
