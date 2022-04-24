@@ -1,0 +1,33 @@
+{
+  "name": "inversion-of-control-library",
+  "version": "1.0.0",
+  "description": "a simple IoC implementation",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest --coverage",
+    "format": "prettier --write \"src/**/*.{ts}\"",
+    "lint": "eslint \"src/**/*.{ts}\" --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3LD3ST/Inversion-of-Control-library.git"
+  },
+  "author": "3LD3ST",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/3LD3ST/Inversion-of-Control-library/issues"
+  },
+  "homepage": "https://github.com/3LD3ST/Inversion-of-Control-library#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
